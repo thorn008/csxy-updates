@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "version": "1.1.0",
+  "baseVersions": [
+    "1.0.0"
+  ],
+  "created": "2026-10-13T18:07:18.682814+08:00",
+  "notes": "启动器 V1.1：新增更新中心、本地补丁安装、GitHub HTTPS 更新检查与下载；保留旧版游玩方式。",
+  "files": [
+    {
+      "path": "launcher/BUILD_PATCH.ps1",
+      "size": 632,
+      "sha256": "89711d0057dfcb8fb7adc258de2cc415b37017df86eed5276d931e742b7a696e"
+    },
+    {
+      "path": "launcher/CSXYLauncher.ps1",
+      "size": 10207,
+      "sha256": "95dd30b9c91c8b79cac23712e772d2734adf5753fac6b7b990485fd1187a0147"
+    },
+    {
+      "path": "launcher/MainWindow.ps1",
+      "size": 7365,
+      "sha256": "b42d61b684c7550bc5c85dd6fea5715365d166ba25b069b91ad2e0d35f34aa89"
+    },
+    {
+      "path": "launcher/README.md",
+      "size": 3137,
+      "sha256": "d44ffb02826b15385bc39e3ebaf3f03f65c79446b3d10328103145018b57da49"
+    },
+    {
+      "path": "launcher/UpdateWindow.ps1",
+      "size": 7003,
+      "sha256": "328ceb774e6dc5d75da1d3ac4cb418b9b09408bbf0eb27045c2b87e56e717b5a"
+    },
+    {
+      "path": "launcher/build_package.py",
+      "size": 7700,
+      "sha256": "57be2f442c408aa33cb2302aac90a2535b08dae1cd912ea36813489d400adc40"
+    },
+    {
+      "path": "launcher/build_patch.py",
+      "size": 6641,
+      "sha256": "28f90c7286642356f25a3825762130e5e470892f890b60ea7a19dbe81e50f1d4"
+    },
+    {
+      "path": "launcher/refresh_package.py",
+      "size": 8047,
+      "sha256": "a9b1608acd293ee1871f8656d642c7ce68dc86582a34cea8e53c29f35b363644"
+    },
+    {
+      "path": "launcher/update_cli.py",
+      "size": 1614,
+      "sha256": "0e25d16c8e7c6b7ae8703625099b14245ee5fa6d20f0d4e3ce1b8fdd5cc1005a"
+    },
+    {
+      "path": "launcher/update_engine.py",
+      "size": 13926,
+      "sha256": "9d14586f73cbb452d8a5701a8a09d660a193b6ab7ef5663ea232634b976335b4"
+    },
+    {
+      "path": "launcher/version.json",
+      "size": 60,
+      "sha256": "84a92ecd6ff3922b1a3dcb6ce60b9b9568c7cbfdc24389b9307acd2fd537eee8"
+    },
+    {
+      "path": "launcher/使用说明.txt",
+      "size": 2658,
+      "sha256": "7463fdda57010fd81a689a479c271c0aa769dba37bc00bd6360bb9eb316b6f36"
+    },
+    {
+      "path": "launcher/更新发布说明.md",
+      "size": 3967,
+      "sha256": "f3578e56b43fb9e526f4855782a2fa45f41ec6a86056d03cbbb13ab535a33375"
+    }
+  ]
+}
