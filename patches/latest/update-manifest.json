@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "version": "1.1.3",
+  "baseVersions": [
+    "1.1.0",
+    "1.1.1",
+    "1.1.2"
+  ],
+  "created": "2026-10-13T21:45:03.365773+08:00",
+  "notes": "• 伙伴扩充为八个流派，招募后自动入队，队伍最多五人。\n• 伙伴等级跟随玩家，自动配备合适装备及小海龙宠物。\n• 修复当前、队伍、流派、帮派、世界等频道的聊天显示。\n• 修复败北后的倒地与定时复活，重启可恢复残留战斗。\n• 同步本机怪物等级，普通野怪血量和伤害随等级变化。\n• 增加可选的玩家与宠物分别下指令模式，并提供超时处理。\n• 启动检查支持配置客户端路径，更新中心显示本次更新内容。\n• 更新下载失败时自动重试并使用 GitHub 官方备用通道，明确显示远程版本状态。",
+  "files": [
+    {
+      "path": "launcher/CSXYLauncher.ps1",
+      "size": 16434,
+      "sha256": "4b5af7e179cf425fcc555ad6a05d0e726b586e5bcc77669a349bf2fc6d24df4f"
+    },
+    {
+      "path": "launcher/MainWindow.ps1",
+      "size": 7564,
+      "sha256": "c323b385c462d5eb0feaddd989142c883739c0338614db7e65a84547b6299396"
+    },
+    {
+      "path": "launcher/README.md",
+      "size": 3380,
+      "sha256": "bf68b7c12782428062cfbafc31d091180f97dc55d4c7c922acd53668ffcaa60c"
+    },
+    {
+      "path": "launcher/UpdateWindow.ps1",
+      "size": 8354,
+      "sha256": "9fb7d800f51795bf5b399ad4d6315a5116943352cceaf604eb105501d23948e2"
+    },
+    {
+      "path": "launcher/build_patch.py",
+      "size": 7915,
+      "sha256": "f236429160b6d61c7db1e899a07c9dee2f5d11d5065cd3a071009a0b1259ee77"
+    },
+    {
+      "path": "launcher/preflight.py",
+      "size": 1253,
+      "sha256": "4ebd4dec676e606c12e89b37117608d240e8554451b48b3402ebf7b06d4a4970"
+    },
+    {
+      "path": "launcher/update_cli.py",
+      "size": 1513,
+      "sha256": "a9b234c3efa0b2b923d53ef86b40c112e6a946762dcf906dbeb7e9b9a5acf9ab"
+    },
+    {
+      "path": "launcher/update_engine.py",
+      "size": 17605,
+      "sha256": "db4019a3b255c2210f191f4c59fdcd205d1b2511928af15e083fb02137050690"
+    },
+    {
+      "path": "launcher/version.json",
+      "size": 60,
+      "sha256": "0c1169be38e34e19b97503b25c2e5f6a53afa78c38c2526d4306731b0260dfb2"
+    },
+    {
+      "path": "launcher/使用说明.txt",
+      "size": 3637,
+      "sha256": "e3192c538fbd30a23f03422147b373c48080b51e95c7f4f24d52a13d76d99be4"
+    },
+    {
+      "path": "launcher/更新发布说明.md",
+      "size": 4805,
+      "sha256": "cbce2273e9f1bc42582ace308b25db3211b413fb1dfdb577b6c6c0ec7f73e193"
+    },
+    {
+      "path": "server/account_service.py",
+      "size": 24807,
+      "sha256": "41dacf9928e620b6004d6c0b70a7405cf42cdb16f747f219063fa3ae01bddaa7"
+    },
+    {
+      "path": "server/attribute_service.py",
+      "size": 6621,
+      "sha256": "3210cb78c41479e2e4c0173600a1927b12e7f3ad819e8fdee844898a0f875626"
+    },
+    {
+      "path": "server/battle_service.py",
+      "size": 46472,
+      "sha256": "d0a00688f765d0f3fecb1663dd72ea70ce5c82e5fecfccfbccce3a2bb355a7eb"
+    },
+    {
+      "path": "server/chat_service.py",
+      "size": 5754,
+      "sha256": "4163b56aa51e9f3978e0a495b8b668c49aaf60530085741871e681575e795bad"
+    },
+    {
+      "path": "server/companion_loadout.py",
+      "size": 4202,
+      "sha256": "f386d40f9018e123f34611d96276433f5421a5670b1efc8a2e495bd4dfbaaa50"
+    },
+    {
+      "path": "server/companion_service.py",
+      "size": 24817,
+      "sha256": "fc0024e1b4b610c322b6a93ba1e20434624c1c53983ebe453c4e842e7eed5153"
+    },
+    {
+      "path": "server/consumable_service.py",
+      "size": 5188,
+      "sha256": "dcfeb533cd3eff1f8ed5952730f96528b0088d216cd2f3ef21a9b9bd6714eb09"
+    },
+    {
+      "path": "server/data/item_boxes.json",
+      "size": 35355,
+      "sha256": "9d0de77c14b89a86b75bcd151b0a82f3977d70b1974db5371973f6020613c5a5"
+    },
+    {
+      "path": "server/data/mall_consumables.json",
+      "size": 638,
+      "sha256": "991f9ae08a64d9b2b9eebc4b97fb20ec014b6a13450407b56fcde98969cf5f75"
+    },
+    {
+      "path": "server/data/monster_index.json",
+      "size": 141545,
+      "sha256": "2f9d8932b9c1a816e168aa1557d002c4d81a2d69e60fd1f3aeac39a97af41287"
+    },
+    {
+      "path": "server/data/release_notes.json",
+      "size": 719,
+      "sha256": "67c6ac7fc994c191315b0ad2b8458dd29bca9613491b353b232abf4f4715c069"
+    },
+    {
+      "path": "server/death_service.py",
+      "size": 3543,
+      "sha256": "ef746cef51ec3758de4cec72bfc44b32ad3b52270bc3ee5a8168569fef7d5f04"
+    },
+    {
+      "path": "server/hot_control.py",
+      "size": 6613,
+      "sha256": "80bd938e04425e46d1b65e3690df090859d65f38c7bf67fd574cfb78bc4f13c6"
+    },
+    {
+      "path": "server/inventory_service.py",
+      "size": 29292,
+      "sha256": "e2987406f17f02cadf521c31dfa279a0065b8cc43222b34ab76e80ce232c6e63"
+    },
+    {
+      "path": "server/monster_stats.py",
+      "size": 3268,
+      "sha256": "cf3145e763bff6c570f0ce4481edc44fb9b98cd359fd4aad92c753ea41357abf"
+    },
+    {
+      "path": "server/progression_service.py",
+      "size": 4802,
+      "sha256": "844059c56de053c378eb26948776caba4c6ca9bef78f6a4ac82b79eabb177120"
+    },
+    {
+      "path": "server/run_all.py",
+      "size": 4601,
+      "sha256": "e0451c4f2ab96b72f9b64e76732ce7dd8651a058d55978489fac8ae4f0bb6b3c"
+    },
+    {
+      "path": "server/startup_repair.py",
+      "size": 1441,
+      "sha256": "d18c4dcb2d6444c54c6fdf57c46ce3501ad9f759d14eff25804bb86adff306b2"
+    },
+    {
+      "path": "server/summon_service.py",
+      "size": 8665,
+      "sha256": "a77073c6cff3af4eb1cdd33b4c3fda41c4f79647a8c1d7814a328c31f4f35d6a"
+    },
+    {
+      "path": "server/udp_baseapp_server.py",
+      "size": 19899,
+      "sha256": "0fe0bf1f1ee997360414f0a1e7fe2a534b871c4b4da378e4154eaa8f9688abfb"
+    }
+  ]
+}
